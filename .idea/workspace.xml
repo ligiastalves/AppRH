@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc0e460-567f-491a-9208-4cf2c6103c65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/models/Candidatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/models/Vaga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppRH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppRH.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7bc0e460-567f-491a-9208-4cf2c6103c65" name="Changes" comment="created the classes vaga and candidato, Spring created tables in the database wi+-th hibernate" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1691632864011</updated>
     </task>
+    <task id="LOCAL-00001" summary="created the classes vaga and candidato, Spring created tables in the database wi+-th hibernate">
+      <created>1691845797358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691845797358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +116,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created the classes vaga and candidato, Spring created tables in the database with hibernate" />
+    <MESSAGE value="created the classes vaga and candidato, Spring created tables in the database wi+-th hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the classes vaga and candidato, Spring created tables in the database wi+-th hibernate" />
   </component>
 </project>
