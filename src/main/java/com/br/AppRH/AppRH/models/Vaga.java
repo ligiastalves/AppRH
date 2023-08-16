@@ -2,11 +2,12 @@ package com.br.AppRH.AppRH.models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
+
 import java.io.Serializable;
 import java.util.List;
 
 @Entity
-public class Vaga implements Serializable{
+public class Vaga implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -27,7 +28,7 @@ public class Vaga implements Serializable{
     private String salario;
 
     @OneToMany(mappedBy = "vaga", cascade = CascadeType.REMOVE)
-    private List<Candidatos> candidatos;
+    private List<Candidato> candidatos;
 
     public long getCodigo() {
         return codigo;
@@ -69,11 +70,11 @@ public class Vaga implements Serializable{
         this.salario = salario;
     }
 
-    public List<Candidatos> getCandidatos() {
+    public List<Candidato> getCandidatos() {
         return candidatos;
     }
 
-    public void setCandidatos(List<Candidatos> candidatos) {
+    public void setCandidatos(List<Candidato> candidatos) {
         this.candidatos = candidatos;
     }
 }

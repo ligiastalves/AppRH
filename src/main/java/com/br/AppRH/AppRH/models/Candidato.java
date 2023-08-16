@@ -4,11 +4,11 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 
 @Entity
-public class Candidatos {
+public class Candidato {
 
     @Id
     @GeneratedValue
-    private  long id;
+    private long id;
 
     @Column(unique = true)
     private String rg;

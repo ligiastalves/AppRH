@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc0e460-567f-491a-9208-4cf2c6103c65" name="Changes" comment="created the classes vaga and candidato, Spring created tables in the database wi+-th hibernate" />
+    <list default="true" id="7bc0e460-567f-491a-9208-4cf2c6103c65" name="Changes" comment="created the classes vaga and candidato, Spring created tables in the database wi+-th hibernate">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/controllers/VagaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/repository/CandidatoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/repository/VagaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Vaga/formVaga.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Vaga/listaVaga.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Vaga/update-vaga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/AppRhApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/AppRhApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/models/Candidatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/models/Candidato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/models/Vaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/AppRH/AppRH/models/Vaga.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,6 +55,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -103,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691845797358</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created the classes vaga and candidato, Spring created tables in the database wi+-th hibernate">
+      <created>1691846020294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691846020294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
