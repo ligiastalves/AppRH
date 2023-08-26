@@ -117,7 +117,7 @@ public class VagaController {
         attributes.addFlashAttribute("sucess", "Vaga alterada com sucesso!");
 
         long codigoLong = vaga.getCodigo();
-        String codigo = "" + codigoLong;
-        return "redirect:/ +codigo";
+        String codigo = "" +codigoLong;
+        return "redirect:/" + codigo;
     }
 }
